@@ -1,7 +1,13 @@
 #include <iostream>
+#include <string>
+using namespace std;
 
 int main(){
-	std::cout<< "hello World!" << std::endl;
+	string name = "";
+	cout << "please enter your name?" << endl;
+	cin >> name;
+	
+	cout<< "hello " << name << endl;
 	system("pause");
 	return 0;
 }
